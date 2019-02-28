@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ble_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/ret"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/ret"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/ret"
+            android:gravity="center"
+            android:text="配对设备"
+            android:textSize="18dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/action_bar_shape"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/progress_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/m_progress_circle"
+                android:layout_gravity="center_vertical"
+                android:layout_width="60dp"
+                android:indeterminateDuration="1200"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/scan_stop"
+                android:layout_width="60dp"
+                android:layout_height="15dp"
+                android:gravity="center"
+                android:text="搜索设备"
+                android:textSize="9dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="9dp"/>
+
+</LinearLayout>

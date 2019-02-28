@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\68cdb844347c86e1c141a702edb444b9\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4f4a084c6dc041da369cee92f9f5672b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\7bfd845c365742dfd44c10b19cf76339\AndroidManifest.xml:17:1-22:12
@@ -31,20 +31,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\63023\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\ab40ef09a2738c4691bc2b570311310a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\75979e10e95c0e85805b259d5d6bb233\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\73eee153e625fbf8ed7c62216bbb2662\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:2:11-69
@@ -60,8 +60,12 @@ uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:7:5-80
 	android:name
 		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:8:22-76
 application
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:8:5-22:19
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:10:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4f4a084c6dc041da369cee92f9f5672b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4f4a084c6dc041da369cee92f9f5672b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\114b7cf5497e4c769416440b2af0a17a\AndroidManifest.xml:22:5-94
@@ -71,31 +75,35 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\63023\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\63023\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\114b7cf5497e4c769416440b2af0a17a\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:16:9-40
 activity#com.example.mementto.myapplication.MainActivity
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:17:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.mementto.myapplication.OpenAndScanBleActivity
+ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:24:9-59
+	android:name
+		ADDED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml:24:19-57
 uses-sdk
 INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\androidproject\MyApplication14\app\src\main\AndroidManifest.xml
